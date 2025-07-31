@@ -1,9 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Button } from "@/frontend/components/ui/button";
-import { Card } from "@/frontend/components/ui/card";
-import { Badge } from "@/frontend/components/ui/badge";
 import {
   Play,
   Pause,
@@ -13,8 +10,11 @@ import {
   Users,
   Heart,
 } from "lucide-react";
-import ParticleBackground from "@/frontend/components/particle-background";
 import Link from "next/link";
+import ParticleBackground from "@/components/particle-background";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 
 export default function WatchPage() {
   const [isPlaying, setIsPlaying] = useState(false);

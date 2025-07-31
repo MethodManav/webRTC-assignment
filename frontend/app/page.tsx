@@ -1,14 +1,15 @@
 import Link from "next/link";
-import { Button } from "@/frontend/components/ui/button";
+
+import { Video, Eye } from "lucide-react";
+import ParticleBackground from "@/components/particle-background";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/frontend/components/ui/card";
-import { Video, Eye } from "lucide-react";
-import ParticleBackground from "@/frontend/components/particle-background";
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 export default function HomePage() {
   return (
