@@ -1,11 +1,11 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "@/frontend/components/ui/button";
+import { Card } from "@/frontend/components/ui/card";
+import { Badge } from "@/frontend/components/ui/badge";
 import { Video, VideoOff, Mic, MicOff, Users, Settings } from "lucide-react";
-import ParticleBackground from "@/components/particle-background";
+import ParticleBackground from "@/frontend/components/particle-background";
 import Link from "next/link";
 
 export default function StreamPage() {
